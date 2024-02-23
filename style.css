@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.welcomemessage-contianter{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-bottom: 100px;
+   
+
+   
+
+}
+
+.welcome{
+    color: rgb(134, 183, 186);
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 150px;
+    font-weight: 700;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.dictionary-cotinater{
+ 
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.dictionary{
+    width: 400px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+   
+}
+.input{
+   
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    padding-top: 30px;
+}
+.input-text{
+    width: 300px;
+    height: 35px;
+  padding: 10px;
+    outline: none;
+    border: 2px solid white ;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    resize: none;
+    overflow: hidden;
+   
+
+}
+
+.input-text::placeholder{
+   padding: 0px;
+}
+
+
+.search{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: solid 2px blue;
+    background-color:  rgb(134, 183, 186);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.search:hover{
+    opacity: 0.7;
+}
+.material-symbols-outlined{
+    margin-top: 2px;
+font-size: 20px;
+}
+
+ .words-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.speaker{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: solid 2px blue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 10px;
+    margin-left: 0px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    margin-right: 15px;
+}
+
+.speaker:hover{
+    opacity: 0.7;
+    background-color: grey;
+    color: white;
+}
+
+.words-search{
+    font-size: 1rem;
+    color: rgb(96, 94, 94);
+    text-transform: capitalize;
+}
+
+.meaning-coniatainer{
+    height: auto;
+    display: inline-flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 15px;
+   
+   
+    
+}
+
+
+
+.meaning-coniatainer p{
+    color: white;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: rgb(96, 94, 94);
+    letter-spacing: 0.5;
+    padding-right: 10px;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.result{
+  
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: block;
+   
+} 
+
+.phonetics{
+    color: rgb(134, 183, 186);
+    
+}
+.partofspeech{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: rgb(96, 94, 94);
+    letter-spacing: 0.5;
+}
+.definition,.definition2 {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.world-example{
+    color: green;
+}
+
